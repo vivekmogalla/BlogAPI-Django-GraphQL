@@ -23,7 +23,7 @@ The application also provides a GraphQL API that can be used to retrieve and man
 
 Example Queries
 ### Get All Posts
-
+```JSON
 query {
   allPosts {
     id
@@ -33,6 +33,7 @@ query {
     author
   }
 }
+'''
 
 ### Get Post by ID
 
