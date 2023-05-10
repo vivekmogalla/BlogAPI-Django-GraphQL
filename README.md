@@ -36,7 +36,7 @@ query {
 }
 
 ## Get Post by ID
-'''
+
 query {
   postById(id: 1) {
     id
@@ -46,10 +46,10 @@ query {
     author
   }
 }
-'''
+
 
 ## CreatePost
-'''
+
 mutation {
   createPost(
     title: "My First Post",
@@ -65,10 +65,10 @@ mutation {
     }
   }
 }
-'''
+
 
 ## UpdatePost
-'''
+
 mutation {
   updatePost(
     id: 1,
@@ -84,13 +84,13 @@ mutation {
     }
   }
 }
-'''
+
 
 ## DeletePost
-'''
+
 mutation {
   deletePost(id: 1) {
     success
   }
 }
-'''
+
