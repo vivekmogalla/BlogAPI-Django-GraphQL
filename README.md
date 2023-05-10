@@ -22,8 +22,9 @@ Once the development server is running, user can access the application by visit
 The application also provides a GraphQL API that can be used to retrieve and manipulate data. The API can be accessed by visiting http://localhost:8000/graphql in your web browser.
 
 Example Queries
-### Get All Posts
+
 ```JSON
+## Get All Posts
 query {
   allPosts {
     id
@@ -35,7 +36,7 @@ query {
 }
 '''
 
-### Get Post by ID
+## Get Post by ID
 '''
 query {
   postById(id: 1) {
@@ -48,7 +49,7 @@ query {
 }
 '''
 
-### CreatePost
+## CreatePost
 '''
 mutation {
   createPost(
@@ -67,7 +68,7 @@ mutation {
 }
 '''
 
-### UpdatePost
+## UpdatePost
 '''
 mutation {
   updatePost(
@@ -86,7 +87,7 @@ mutation {
 }
 '''
 
-### DeletePost
+## DeletePost
 '''
 mutation {
   deletePost(id: 1) {
