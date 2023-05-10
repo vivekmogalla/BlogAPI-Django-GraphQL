@@ -34,7 +34,6 @@ query {
     author
   }
 }
-'''
 
 ## Get Post by ID
 '''
